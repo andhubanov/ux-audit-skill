@@ -14,7 +14,7 @@ A skill for Claude that runs a structured UX audit. Give it a screenshot, a URL,
 Claude Code: copy the `ux-audit` folder into `~/.claude/skills/`.
 
 ```bash
-git clone https://github.com/andhubanov-designer/ux-audit-skill.git
+git clone https://github.com/andhubanov/ux-audit-skill.git
 cp -r ux-audit-skill/ux-audit ~/.claude/skills/
 ```
 
