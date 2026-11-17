@@ -35,3 +35,7 @@ Clarity of purpose, hierarchy, navigation, forms, states and feedback, copy, con
 ## License
 
 MIT
+
+---
+
+made by [@AndriiDsgn](https://x.com/AndriiDsgn) · [hubanov.space](https://hubanov.space/)
