@@ -11,6 +11,10 @@ A skill for Claude that runs a structured UX audit. Give it a screenshot, a URL,
 - findings ranked as blocker, major, minor and polish, each with the problem, why it matters and the fix
 - what already works, and what the audit could not judge
 
+## Example
+
+See a full sample report: [checkout flow audit](examples/checkout-flow.md).
+
 ## Install
 
 Claude Code: copy the `ux-audit` folder into `~/.claude/skills/`.
