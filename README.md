@@ -1,5 +1,7 @@
 # ux-audit-skill
 
+[![check](https://github.com/andhubanov/ux-audit-skill/actions/workflows/check.yml/badge.svg)](https://github.com/andhubanov/ux-audit-skill/actions/workflows/check.yml)
+
 ![ux-audit: a ux audit by a senior product designer](assets/cover.png)
 
 A skill for Claude that runs a structured UX audit. Give it a screenshot, a URL, a Figma link or a description of a flow. It returns a short verdict, the three fixes that matter most, and ranked findings with concrete changes.
