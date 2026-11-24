@@ -15,7 +15,10 @@ A skill for Claude that runs a structured UX audit. Give it a screenshot, a URL,
 
 ## Example
 
-See a full sample report: [checkout flow audit](examples/checkout-flow.md).
+Full sample reports:
+
+- [checkout flow audit](examples/checkout-flow.md) · mobile checkout, goal: completed payments
+- [onboarding audit](examples/onboarding.md) · budgeting app, goal: first budget created
 
 ## Install
 

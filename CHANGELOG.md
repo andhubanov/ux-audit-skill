@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- example report: [onboarding audit](examples/onboarding.md)
 - CI: validates SKILL.md frontmatter and every relative link on each push
 
 ## v1.0.0 · 2026-11-20
