@@ -1,0 +1,38 @@
+name: Audit feedback
+description: The skill missed something, flagged the wrong thing, or ranked a finding badly.
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping make the audits sharper. Remove anything confidential from screenshots before attaching them.
+  - type: input
+    id: product
+    attributes:
+      label: What did you audit?
+      placeholder: e.g. signup flow of a B2B SaaS, mobile checkout
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What went wrong?
+      options:
+        - Missed an important problem
+        - Flagged something that is not a problem
+        - Wrong severity
+        - Fix was vague or impractical
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What the skill said, and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Where did you run it?
+      placeholder: e.g. Claude Code, Claude desktop app

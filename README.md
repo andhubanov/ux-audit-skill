@@ -43,6 +43,10 @@ Ask in plain language:
 
 Clarity of purpose, hierarchy, navigation, forms, states and feedback, copy, consistency, trust and friction, mobile, accessibility basics, and growth hooks when conversion matters.
 
+## Feedback
+
+If an audit missed something or ranked it wrong, [open an issue](https://github.com/andhubanov/ux-audit-skill/issues/new/choose). Suggestions for new checks are welcome too.
+
 ## License
 
 MIT

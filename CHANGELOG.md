@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- issue templates for audit feedback and new check suggestions
 - example report: [onboarding audit](examples/onboarding.md)
 - CI: validates SKILL.md frontmatter and every relative link on each push
 

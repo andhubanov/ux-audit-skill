@@ -1,0 +1,23 @@
+name: Suggest a check
+description: Propose a new lens or rule the audit should cover.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: check
+    attributes:
+      label: What should the audit check?
+      placeholder: e.g. pricing pages show the annual discount next to the monthly price
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: The effect on users or on the goal when this is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: A product that gets it right or wrong. Links or screenshots welcome.
